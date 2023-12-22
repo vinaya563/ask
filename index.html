@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asking You Out</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Bubblegum Sans' rel='stylesheet'>
+</head>
+<style>
+    button {
+        display: inline-block;
+        background-color: lightcoral;
+        border-radius: 10px;
+        border: 4px double #cccccc;
+        color: #ffffff;
+        text-align: center;
+        font-size: 20px;
+        padding: 20px;
+        width: 125px;
+        transition: all 0.5s;
+        cursor: pointer;
+        margin: 5px;
+        font-family: bubblegum sans;
+    }
+
+    button span {
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        transition: 0.5s;
+    }
+
+    button span:after {
+        content: '\00bb';
+        position: absolute;
+        opacity: 0;
+        top: 0;
+        right: -20px;
+        transition: 0.5s;
+    }
+
+    button:hover {
+        background-color: lightpink;
+    }
+
+    button:hover span {
+        padding-right: 25px;
+    }
+
+    button:hover span:after {
+        opacity: 1;
+        right: 0;
+    }
+</style>
+
+<body style="background-color: #ffb7b7;font-family: bubblegum sans;color: purple;size: 200px;">
+    <center>
+        <div class="container">
+            <img src="cedenk57k6081-removebg-preview.png" Heart Image" class="heart">
+            <h1>Will you be my santaaaa FOREVERRRRRR??</h1>
+            <div class="buttons">
+                <button id="yesBtn">Yes</button>
+                <button id="noBtn">No</button>
+            </div>
+            <div id="response" class="response-img"></div>
+        </div>
+
+        <script src="script.js"></script>
+    </center>
+</body>
+
+</html>

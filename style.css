@@ -1,0 +1,50 @@
+body {
+    font-family: 'Comic Sans MS', cursive;
+    /* Applying a cute font */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f7f7f7;
+}
+
+.container {
+    text-align: center;
+}
+
+.heart {
+    width: 75px;
+    height: auto;
+}
+
+h1 {
+    font-size: 2em;
+    margin-top: 20px;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+button {
+    padding: 50px 75px;
+    /* Making buttons larger */
+    font-size: 300px;
+    /* Adjusting font size */
+    margin: 10px 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 30px;
+    /* Applying a round shape */
+    background-color: #ffcccc;
+    /* Cute background color */
+    color: #333;
+    /* Font color */
+    transition: transform 0.3s ease;
+}
+
+button:hover {
+    transform: scale(1.1);
+    /* Hover effect - slightly larger */
+}
